@@ -42,15 +42,15 @@
         app: {
           format: 'register',
           defaultExtension: 'js'
-        }
+        },
+        'vendor/ng2-i18next': {
+          format: 'cjs',
+          defaultExtension: 'js'
+        }                
       },
-     'vendor/ng2-i18next': {
-       format: 'cjs',
-       defaultExtension: 'js'
-     },
-     map: {
-      'ng2-i18next': 'vendor/ng2-i18next'
-     }
+      map: {
+        'ng2-i18next': 'vendor/ng2-i18next'
+      }
     });
     System.import('app.js').then(null, console.error.bind(console));
   </script>
