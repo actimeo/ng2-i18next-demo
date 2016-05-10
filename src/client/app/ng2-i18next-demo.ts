@@ -13,7 +13,7 @@ import {I18nDirective, I18nService} from 'ng2-i18next/ng2-i18next';
 ])
 export class Ng2I18nextDemoApp {
   defaultMeaning: number = 42;
-  localizedText: string = "Press to load localized text";
+  localizedText: string = 'Press to load localized text';
 
   meaningOfLife(meaning?: number) {
     return `The meaning of life is ${meaning || this.defaultMeaning}`;
